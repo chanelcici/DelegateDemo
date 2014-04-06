@@ -21,6 +21,7 @@
 		32575F5018F05AEF00C2EF05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32575F3218F05AEF00C2EF05 /* UIKit.framework */; };
 		32575F5818F05AEF00C2EF05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32575F5618F05AEF00C2EF05 /* InfoPlist.strings */; };
 		32575F5A18F05AEF00C2EF05 /* DelegateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32575F5918F05AEF00C2EF05 /* DelegateDemoTests.m */; };
+		32575F6518F0623300C2EF05 /* DelegateDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32575F6418F0623300C2EF05 /* DelegateDemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		32575F5518F05AEF00C2EF05 /* DelegateDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DelegateDemoTests-Info.plist"; sourceTree = "<group>"; };
 		32575F5718F05AEF00C2EF05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		32575F5918F05AEF00C2EF05 /* DelegateDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateDemoTests.m; sourceTree = "<group>"; };
+		32575F6318F0623300C2EF05 /* DelegateDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateDemoViewController.h; sourceTree = "<group>"; };
+		32575F6418F0623300C2EF05 /* DelegateDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateDemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				32575F4018F05AEF00C2EF05 /* Main.storyboard */,
 				32575F4318F05AEF00C2EF05 /* ViewController.h */,
 				32575F4418F05AEF00C2EF05 /* ViewController.m */,
+				32575F6318F0623300C2EF05 /* DelegateDemoViewController.h */,
+				32575F6418F0623300C2EF05 /* DelegateDemoViewController.m */,
 				32575F4618F05AEF00C2EF05 /* Images.xcassets */,
 				32575F3518F05AEF00C2EF05 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				32575F4518F05AEF00C2EF05 /* ViewController.m in Sources */,
 				32575F3F18F05AEF00C2EF05 /* AppDelegate.m in Sources */,
+				32575F6518F0623300C2EF05 /* DelegateDemoViewController.m in Sources */,
 				32575F3B18F05AEF00C2EF05 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,17 +7,21 @@
 //
 
 #import "ViewController.h"
+#import "DelegateDemoViewController.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+@synthesize delegate;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    DelegateDemoViewController *demo = [[DelegateDemoViewController alloc] init];
+    delegate = demo;
+    [delegate doItForMe:@"123123"];
 }
 
 - (void)didReceiveMemoryWarning

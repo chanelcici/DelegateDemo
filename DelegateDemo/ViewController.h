@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol ViewControllerDelegate <NSObject>
+
+- (void) doItForMe:(NSString *)string;
+
+@end
+
 @interface ViewController : UIViewController
+
+@property (nonatomic, assign) id <ViewControllerDelegate> delegate;
 
 @end
